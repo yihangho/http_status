@@ -1,0 +1,30 @@
+{
+  "name": "@yihangho/http_status",
+  "version": "1.0.0",
+  "description": "Provides semantic aliases to HTTP status codes.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Yihang Ho <hoyihang5@gmail.com>",
+  "homepage": "https://github.com/yihangho/http_status",
+  "bugs": {
+    "url": "https://github.com/yihangho/http_status/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yihangho/http_status.git"
+  },
+  "license": "MIT",
+  "files": [
+    "dist/**/*"
+  ],
+  "keywords": [
+    "http",
+    "status"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^3.4.5"
+  }
+}
